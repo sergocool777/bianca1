@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dgis_automation_label">Бьянка: автостарт маршрута 2ГИС</string>
+    <string name="dgis_automation_description">Один раз нажимает «В путь» только для маршрута, который открыла Бьянка. Не нажимает кнопки при обычном использовании 2ГИС.</string>
+</resources>

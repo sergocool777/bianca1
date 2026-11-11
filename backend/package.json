@@ -1,0 +1,22 @@
+{
+  "name": "bianca-backend",
+  "version": "2.0.0",
+  "description": "Мозг Бьянки: оркестратор диалога, памяти и инструментов поверх Ollama",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test \"test/**/*.test.js\"",
+    "simulate": "node scripts/simulate.js"
+  },
+  "engines": {
+    "node": ">=20.12"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^11.3.1",
+    "fastify": "^5.12.7",
+    "ollama": "^0.6.4"
+  }
+}

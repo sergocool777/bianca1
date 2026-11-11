@@ -1,0 +1,26 @@
+# Node
+node_modules/
+backend/data/
+backend/.env
+
+# Flutter / Android build artifacts
+bianca_assistant/.dart_tool/
+bianca_assistant/build/
+bianca_assistant/android/.gradle/
+bianca_assistant/android/local.properties
+bianca_assistant/android/app/build/
+bianca_assistant/windows/flutter/ephemeral/
+bianca_assistant/linux/flutter/ephemeral/
+bianca_assistant/macos/Flutter/ephemeral/
+bianca_assistant/ios/Flutter/ephemeral/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+bianca_assistant/android/build/
